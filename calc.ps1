@@ -8,7 +8,7 @@ function Subtract {
     [CmdletBinding()]
     Param($a,$b)
 
-    Out-Null
+    $a+$b
 }
 
 function Multiply {
